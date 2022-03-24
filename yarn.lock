@@ -6221,6 +6221,37 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dan4-typed-vuex@workspace:packages/typed-vuex, typed-vuex@npm:dan4-typed-vuex@^0.3.1":
+  version: 0.0.0-use.local
+  resolution: "dan4-typed-vuex@workspace:packages/typed-vuex"
+  dependencies:
+    "@vue/test-utils": ^1.0.0
+    tsd: ^0.19.1
+    vue: ^2.6.14
+    vuex: ^3.6.2
+  peerDependencies:
+    vuex: ^3.6.2
+  languageName: unknown
+  linkType: soft
+
+"daniluk4000-nuxt-typed-vuex@workspace:packages/nuxt-typed-vuex":
+  version: 0.0.0-use.local
+  resolution: "daniluk4000-nuxt-typed-vuex@workspace:packages/nuxt-typed-vuex"
+  dependencies:
+    "@nuxt/test-utils": ^0.2.2
+    "@nuxt/types": ^2.15.8
+    "@nuxt/typescript-build": ^2.1.0
+    core-js: 3.21.0
+    nuxt: ^2.15.8
+    ts-loader: ^8.3.0
+    tsd: ^0.19.1
+    typed-vuex: "npm:dan4-typed-vuex@^0.3.1"
+    upath: ^2.0.1
+  peerDependencies:
+    "@nuxt/types": ^2.15.6
+  languageName: unknown
+  linkType: soft
+
 "dargs@npm:^7.0.0":
   version: 7.0.0
   resolution: "dargs@npm:7.0.0"
@@ -11868,24 +11899,6 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"nuxt-typed-vuex@workspace:packages/nuxt-typed-vuex":
-  version: 0.0.0-use.local
-  resolution: "nuxt-typed-vuex@workspace:packages/nuxt-typed-vuex"
-  dependencies:
-    "@nuxt/test-utils": ^0.2.2
-    "@nuxt/types": ^2.15.8
-    "@nuxt/typescript-build": ^2.1.0
-    core-js: 3.21.0
-    nuxt: ^2.15.8
-    ts-loader: ^8.3.0
-    tsd: ^0.19.1
-    typed-vuex: 0.3.0
-    upath: ^2.0.1
-  peerDependencies:
-    "@nuxt/types": ^2.15.6
-  languageName: unknown
-  linkType: soft
-
 "nuxt@npm:^2.15.8":
   version: 2.15.8
   resolution: "nuxt@npm:2.15.8"
@@ -16181,19 +16194,6 @@ fsevents@^1.2.7:
   checksum: d61c4b2eba24009033ae4500d7d818a94fd6d1b481a8111612ee141400d5f1db46f199c014766b9fa9b31a6a7374d96fc748c6d688a78a3ce5a33123839becb7
   languageName: node
   linkType: hard
-
-"typed-vuex@0.3.0, typed-vuex@workspace:packages/typed-vuex":
-  version: 0.0.0-use.local
-  resolution: "typed-vuex@workspace:packages/typed-vuex"
-  dependencies:
-    "@vue/test-utils": ^1.0.0
-    tsd: ^0.19.1
-    vue: ^2.6.14
-    vuex: ^3.6.2
-  peerDependencies:
-    vuex: ^3.6.2
-  languageName: unknown
-  linkType: soft
 
 "typedarray-to-buffer@npm:^3.1.5":
   version: 3.1.5

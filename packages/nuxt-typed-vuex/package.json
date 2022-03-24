@@ -1,6 +1,6 @@
 {
-  "name": "nuxt-typed-vuex",
-  "version": "0.3.0",
+  "name": "daniluk4000-nuxt-typed-vuex",
+  "version": "0.3.3",
   "description": "A typed store accessor for Nuxt.",
   "keywords": [
     "vuex",
@@ -11,7 +11,7 @@
     "nuxtjs",
     "nuxt-module"
   ],
-  "repository": "danielroe/typed-vuex",
+  "repository": "daniluk4000/typed-vuex",
   "license": "MIT",
   "author": {
     "name": "Daniel Roe",
@@ -33,7 +33,7 @@
     "dev": "nuxt test/fixture"
   },
   "dependencies": {
-    "typed-vuex": "0.3.0",
+    "typed-vuex": "npm:dan4-typed-vuex@^0.3.2",
     "upath": "^2.0.1"
   },
   "devDependencies": {
