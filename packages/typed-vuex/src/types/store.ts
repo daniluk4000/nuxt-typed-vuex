@@ -41,6 +41,7 @@ export interface NuxtStoreInput<
   A,
   S extends { [key: string]: Partial<ExtendedNuxtStore> }
 > {
+  dynamic?: boolean
   namespaced?: boolean
   state: T
   getters?: G

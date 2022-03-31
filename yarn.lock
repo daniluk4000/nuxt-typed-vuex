@@ -6221,7 +6221,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dan4-typed-vuex@workspace:packages/typed-vuex, typed-vuex@npm:dan4-typed-vuex@^0.3.1":
+"dan4-typed-vuex@workspace:packages/typed-vuex, typed-vuex@npm:dan4-typed-vuex@^0.3.4":
   version: 0.0.0-use.local
   resolution: "dan4-typed-vuex@workspace:packages/typed-vuex"
   dependencies:
@@ -6245,7 +6245,7 @@ __metadata:
     nuxt: ^2.15.8
     ts-loader: ^8.3.0
     tsd: ^0.19.1
-    typed-vuex: "npm:dan4-typed-vuex@^0.3.1"
+    typed-vuex: "npm:dan4-typed-vuex@^0.3.4"
     upath: ^2.0.1
   peerDependencies:
     "@nuxt/types": ^2.15.6
