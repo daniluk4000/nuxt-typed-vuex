@@ -1,6 +1,6 @@
 {
   "name": "dan4-typed-vuex",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "description": "A typed store accessor for Vuex.",
   "keywords": [
     "vuex",

@@ -18,6 +18,7 @@ export interface BlankStore {
   modules: {}
   namespaced: boolean
   dynamic: boolean
+  strict: boolean
 }
 
 export interface NuxtStore {
@@ -28,6 +29,7 @@ export interface NuxtStore {
   modules: NuxtModules
   namespaced: boolean
   dynamic: boolean
+  strict: boolean
 }
 
 export interface ExtendedNuxtStore extends NuxtStore {
@@ -41,6 +43,7 @@ export interface NuxtStoreInput<
   A,
   S extends { [key: string]: Partial<ExtendedNuxtStore> }
 > {
+  strict?: boolean
   dynamic?: boolean
   namespaced?: boolean
   state: T
